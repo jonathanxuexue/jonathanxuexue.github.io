@@ -109,3 +109,6 @@ header {
     align-items: center;
 }
 
+.arrows {
+    text-decoration: none;
+}
