@@ -103,6 +103,12 @@ body {
 body {
     margin: 2rem;
 }
+
+p {
+    font-size: calc(1em + 0.5vw);   
+    line-height: 1.35;
+    font-weight: 400; 
+}
 header {
     margin-bottom: 1em;
     display: flex;
@@ -111,4 +117,9 @@ header {
 
 .arrows {
     text-decoration: none;
+}
+
+.summary a {
+    color: blue;
+    text-decoration: underline;    
 }
