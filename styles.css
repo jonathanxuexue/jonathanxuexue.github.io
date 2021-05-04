@@ -101,7 +101,7 @@ body {
 }
 
 body {
-    margin: 20px;
+    margin: 0.75em;
     background-color: white;
 }
 
@@ -139,6 +139,13 @@ nav {
     display: inline-block;
 }
 
+.blue {
+    color: blue !important;
+}
+
+.link {
+    text-decoration: underline;
+}
 .folder {
     display: inline-block;
     overflow-wrap: break-word;
@@ -157,6 +164,13 @@ nav {
 .folder:active {
     background-color: lightblue;
 }
+
+@media screen and (max-width: 355px) {
+    .folder {
+        width: 93%;
+    }
+}
+
 
 .resize {
     resize: both;
