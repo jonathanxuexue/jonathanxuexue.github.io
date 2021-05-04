@@ -9,49 +9,16 @@
     <meta charset="utf-8">
 </head>
 
-<body>
-    <a class = "arrows" href = "index.html"> ↶ move away from the shelf </a>
-    <br>
-    <br>
-    <div>
-        <span class = "summary">
-            <img
-            src="images/box-closed.svg"
-            class = "imageid"
-            height="32"
-            width="32" /> <a>Why Not Ask Again?</a>
-        </span>
-        <div class = "details" style = "display: none"> a </div>
-    </div>
-    <div>
-        <span class = "summary">
-            <img
-            src="images/box-closed.svg"
-            class = "imageid"
-            height="32"
-            width="32" /> <a>bruh</a>
-        </span>
-        <div class = "details" style = "display: none"> a </div>
-    </div>
-    
+<body style="background-color: lemonchiffon;">
+    <a href="./index.html" class = "folder" style = "background-color: white;">
+        <p class = "arrows">&#8624;</p>
+    </a>
+    <a class = "folder" href = "monet.html" style="background-color: greenyellow;"> monet </a>
+    <a class = "folder" href = "whynotaskagain.html" style="background-color: black; color: white;"> why not ask again?</a>
+    <a class = "folder" href = "alphabetaerobics.html" style="background-color: red;"> alphabet aerobics </a>
+    <a class = "folder" href = "seedschat.html" style= "background-color: mistyrose;"> seeds.chat </a>
+    <a class = "folder" href = "yardgallery.html"> yard.gallery </a>
+    <a class = "folder" href = "bricks.html"> bricks </a>
     
 
 </body>
-
-<script>
-    var summ = document.getElementsByClassName("summary");
-    var i;
-
-    for (i = 0; i < summ.length; i++) {
-    summ[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-        content.style.display = "none";
-        } else {
-        content.style.display = "block";
-        
-        }
-    });
-    }
-</script>
