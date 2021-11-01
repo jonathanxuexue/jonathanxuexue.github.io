@@ -149,7 +149,7 @@ nav {
 .folder {
     display: inline-block;
     overflow-wrap: break-word;
-    overflow: scroll;
+    overflow: hidden;
     width: 315px;
     height: 160px;
     padding: 10px; 
