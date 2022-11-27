@@ -154,6 +154,7 @@ nav {
     border: solid 1px;
     margin-bottom: 8px;
     vertical-align: top;
+    max-width: 50%;
     background-color: white;
 }
 .folder:active {
@@ -211,4 +212,7 @@ details[open] > summary {
 
 details {
     text-decoration: underline;
+}
+img {
+ max-width: 100%;
 }
