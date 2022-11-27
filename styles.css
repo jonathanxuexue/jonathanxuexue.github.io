@@ -201,3 +201,14 @@ marquee {
     background:deepskyblue;
 }
 
+details > summary {
+    list-style-type: none;
+}
+
+details[open] > summary {
+    list-style-type: none;
+}
+
+details {
+    text-decoration: underline;
+}
