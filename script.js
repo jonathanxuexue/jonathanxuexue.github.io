@@ -1,4 +1,4 @@
-const channelId = "rocks-xxbfv_ntyau"; // Replace with the ID of the ARE.NA channel
+const channelId = "my-site-u8spgfpjqv8"; // Replace with the ID of the ARE.NA channel
 
 const fetchArenaChannel = async (id) => {
   console.log("Fetching ARE.NA channel");
