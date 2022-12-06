@@ -4,7 +4,7 @@ const fetchArenaChannel = async (id) => {
   console.log("Fetching ARE.NA channel");
   const main = document.getElementById("main");
   console.log(main);
-  fetch(`http://api.are.na/v2/channels/${id}/contents`)
+  fetch(`https://api.are.na/v2/channels/${id}/contents`)
     .then((response) => response.json())
     .then((data) => {
       // Loop through the blocks in the channel
